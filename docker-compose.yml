@@ -1,0 +1,8 @@
+version: '2'
+services:
+    nginx:
+        build: .
+        environment:
+            - HOST_IP=${HOST_IP}
+        ports:
+            - ${HOST_PORT}:80

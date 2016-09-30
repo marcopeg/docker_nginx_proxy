@@ -1,4 +1,4 @@
-WHICH_COMPOSE=./docker-compose.prod.yml
+WHICH_COMPOSE=./docker-compose.yml
 COMPOSE_FILE=${WHICH_COMPOSE} docker-compose build
 COMPOSE_FILE=${WHICH_COMPOSE} docker-compose up -d
 COMPOSE_FILE=${WHICH_COMPOSE} docker-compose logs -f

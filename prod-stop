@@ -1,2 +1,2 @@
-WHICH_COMPOSE=./docker-compose.prod.yml
+WHICH_COMPOSE=./docker-compose.yml
 COMPOSE_FILE=${WHICH_COMPOSE} docker-compose stop

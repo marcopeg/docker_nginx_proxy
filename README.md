@@ -44,8 +44,14 @@ http {
 The project is set up to source it's configuration from a `.env` file which you should create after you clone the repository (it is gitignored):
 
 ```
-HOST_IP=172.16.135.251
+HOST_IP=12.34.56.78
 HOST_PORT=80
 ```
 
-> You can use the `template.env` which is provided, just rename it!	
+> You can use the `template.env` which is provided, just rename it!
+
+## Start NGiNX
+
+```
+./prod-up
+```
